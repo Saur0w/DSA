@@ -32,6 +32,6 @@ public:
 
 int main() {
     Solution obj;
-    std::cout << obj.isValid("{(()})])}") << std::endl;
+    std::cout << std::boolalpha << obj.isValid("{(()})])}") << std::endl;
     return 0;
 }
